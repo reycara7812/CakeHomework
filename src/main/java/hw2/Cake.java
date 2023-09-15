@@ -1,8 +1,13 @@
 package hw2;
 
-public class Cake {
+public  class  Cake {
     private String flavor;
     private double price;
+
+    public Cake(String flavor) {
+        this.flavor=flavor;
+
+    }
 
     public String getFlavor() {
         return flavor;
